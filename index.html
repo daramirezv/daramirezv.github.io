@@ -5,6 +5,9 @@
   <meta charset="utf-8" />
   <title>David Ramirez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Code review por: Sergio Cárdenas -->
+  <meta name="description" content="This is my personal webpage, ...">
+  <meta name="author" content="David Ramírez">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
@@ -20,9 +23,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#studiessection">Studies</a>
         </li>
@@ -48,10 +48,12 @@
   <div id = "home" class="jumbotron jumbointroduction">
     <div class="container">
       <div class="row">
-        <img class="col-md-3" height="250" src="imagenes/pic.jpg" alt="David Andres Ramirez" />
+        <div class="container col-md-3">
+          <img height="250" src="imagenes/pic.jpg" alt="David Andres Ramirez" />
+        </div>
         <div class="container col-md-7">
           <h1 class="display-3">Hello everyone!</h1>
-          <p>This is my website where you can find many things about me such as hobbies, proyects, and what i have done in
+          <p>This is my website where you can find many things about me such as hobbies, proyects, and what I have done in
             my life.</p>
         </div>
       </div>
@@ -61,7 +63,7 @@
     <div class="row">
       <div class="container col-md-5">
         <h1 class="display-1">Studies</h1>
-        <p class="parrafo" class="text-justify">I was borned in Bogota, Colombia on December 6 in 1996. I finished my high
+        <p class="parrafo text-justify">I was borned in Bogota, Colombia on December 6 in 1996. I finished my high
           school at Colegio San Carlos, where i studied 12 years. After i finished highschool i started studying Computer
           Engineering at Universidad de los Andes, a well renowed university here in Colombia. I am currently finishing my
           career which i like very much.
@@ -76,18 +78,18 @@
   <h1 id="languagessection" class="display-3 titulo">Languages i know</h1>
   <div class="jumbotron">
     <div class="row">
-      <div class="container col-md-4">
-        <img class="img-responsive smallimages" height="100" src="imagenes/colombia.png" alt="David Andres Ramirez" />
+      <div class="container col-md-4 text-center">
+        <img class="img-responsive smallimages" height="120" src="imagenes/colombia.png" alt="David Andres Ramirez" />
         <h4 class="text-center">Spanish</h4>
         <p class="text-center">native proficiency</p>
       </div>
       <div class="container col-md-4">
-        <img class="img-responsive smallimages" height="100" src="imagenes/usa.png" alt="David Andres Ramirez" />
+        <img class="img-responsive smallimages" height="120" src="imagenes/usa.png" alt="David Andres Ramirez" />
         <h4 class="text-center">English</h4>
         <p class="text-center">fluent</p>
       </div>
       <div class="container col-md-4">
-        <img class="img-responsive smallimages" height="100" src="imagenes/japan.png" alt="David Andres Ramirez" />
+        <img class="img-responsive smallimages" height="120" src="imagenes/japan.png" alt="David Andres Ramirez" />
         <h4 class="text-center">Japanese</h4>
         <p class="text-center">I'm working on it</p>
       </div>
@@ -227,9 +229,9 @@
         </p>
         <div class="collapse" id="keutavid">
           <div class="card card-body">
-            The purpose of the application is receiving critical security information generated from the user's door. With this information,
+            <p class="text-justify">The purpose of the application is receiving critical security information generated from the user's door. With this information,
             the user could know for expample if someone tried to forced the door's lock. The Project was made with Arduino,
-            java, mosquitto, kafka, and auth0.
+            java, mosquitto, kafka, and auth0. <a href="external_link" target="_blank">Learn more</a>.</p>
           </div>
         </div>
       </div>
@@ -244,9 +246,9 @@
         </p>
         <div class="collapse" id="athenainfo">
           <div class="card card-body">
-            This application was made for teachers who would like to know how his students learned. It uses the gardner intelligences
+            <p class="text-justify> This application was made for teachers who would like to know how his students learned. It uses the gardner intelligences
             to clasify them. Once his students were classified, the app suggested him with appropiate activities for them.
-            Everything was made only with Android Studio.
+            Everything was made only with Android Studio. <a href="external_link" target="_blank">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -256,17 +258,17 @@
 
     <div class="container contacto">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <a href="https://github.com/daramirezv" target="_blank">
             <img class="img-responsive smallimages" height="150" src="imagenes/github.png" alt="David Andres Ramirez" />
           </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <a href="mailto:da.ramirezv@uniandes.edu.co" target="_blank">
             <img class="img-responsive smallimages" height="125" src="imagenes/correo.jpg" alt="David Andres Ramirez" />
           </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <a href="https://twitter.com/DavidAndrsRamr3" target="_blank">
             <img class="img-responsive smallimages" height="150" src="imagenes/twitter.png" alt="David Andres Ramirez" />
           </a>
