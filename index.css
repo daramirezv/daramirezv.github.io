@@ -1,0 +1,186 @@
+.main {
+    margin-left: 13rem;
+}
+
+#home {
+    display: block;
+    margin-top: 7em;
+    margin-left: 4em;
+}
+
+#academics {
+    display: none;
+}
+
+#skills {
+    display: none;
+}
+
+#projects {
+    display: none;
+}
+
+#other {
+    display: none;
+}
+
+#sideNav {
+    text-align:center;
+    position:fixed;
+    top:0;
+    left:0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    width:12rem;
+    height:100vh;
+    background-color: #111
+}
+
+#sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    width:100%;
+}
+
+.nav-item a:hover {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    font-size: 23px;
+    color: #818181 !important;
+    display: block;
+    transition: 0.3s;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+#introparragraph{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width:80%;
+    text-align: justify;
+}
+
+.iconos{
+    margin-right: 3.5em;
+    text-decoration: none !important;
+}
+
+.derechaEducation{
+    text-align: right !important;
+}
+
+.tituloEducacion{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.titulomoreme{
+    margin-bottom: 1em;
+}
+
+.margenEducacion{
+    margin-left: 4em;
+}
+
+.deck{
+    margin-bottom: 2em;
+}
+
+#campoExperiencia{
+    margin-bottom: 4em;
+}
+
+.skillsElemento{
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .skillsPrimerElemento{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .iconosProyectos{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+ }
+
+ .justificacion{
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+ .espacioProyectos{
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+
+ .tituloModal{
+     text-align: center !important;
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+  }
+
+  .margenpracsocial{
+      margin-top: 20px;
+  }
+
+  .tituidioma{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0.5em;
+  }
+
+  .carruselfinal{
+      margin-bottom: 5em;
+      margin-top: 1em;
+  }
+
+  .linea{
+    background-image: linear-gradient(#000, #000);
+    background-size: 2px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .centroImagenUniversidad{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .tamanoImagenUniversidad{
+    max-width:100%;
+    padding-left: 1em;
+  }
+
+  .tablasSkills{
+    margin-bottom: 2em;
+  }
+
+  .cardInteresesFinal{
+      margin-top: 2em;
+  }
+
+  .margenfinalintereses{
+      margin-bottom: 3em;
+  }
