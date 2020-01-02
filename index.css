@@ -2,6 +2,19 @@
     margin-left: 13rem;
 }
 
+.centroverticalhome{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.borde{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 #home {
     display: block;
     margin-top: 7em;
@@ -67,7 +80,6 @@
 #introparragraph{
     margin-top: 2em;
     margin-bottom: 2em;
-    max-width:80%;
     text-align: justify;
 }
 
