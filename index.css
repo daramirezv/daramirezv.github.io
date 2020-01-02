@@ -9,16 +9,18 @@
     transform: translateY(-50%);
 }
 
-.borde{
+.iconosCentradosHome{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
+.tamanohomemax{
+    max-width: 100%;
+}
+
 #home {
     display: block;
-    margin-top: 7em;
-    margin-left: 4em;
 }
 
 #academics {
