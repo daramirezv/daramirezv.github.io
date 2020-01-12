@@ -1,22 +1,24 @@
 .main {
-    margin-left: 13rem;
+    margin-left: 12rem;
 }
 
 .centroverticalhome{
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 53%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.deck2{
+    margin-top:2em;
+    margin-bottom: 2em;
 }
 
 .iconosCentradosHome{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.tamanohomemax{
-    max-width: 100%;
 }
 
 #home {
@@ -90,10 +92,6 @@
     text-decoration: none !important;
 }
 
-.derechaEducation{
-    text-align: right !important;
-}
-
 .tituloEducacion{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -101,18 +99,6 @@
 
 .titulomoreme{
     margin-bottom: 1em;
-}
-
-.margenEducacion{
-    margin-left: 4em;
-}
-
-.deck{
-    margin-bottom: 2em;
-}
-
-#campoExperiencia{
-    margin-bottom: 4em;
 }
 
 .skillsElemento{
@@ -144,30 +130,10 @@
     padding-bottom: 1em;
  }
 
- .tituloModal{
-     text-align: center !important;
- }
-
- .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:60%;
-  }
-
-  .margenpracsocial{
-      margin-top: 20px;
-  }
-
   .tituidioma{
     font-weight: bold;
     font-size: large;
     margin-top: 0.5em;
-  }
-
-  .carruselfinal{
-      margin-bottom: 5em;
-      margin-top: 1em;
   }
 
   .linea{

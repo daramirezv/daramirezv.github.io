@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>David</title>
+    <title>David Ramirez</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                     <a class="nav-link" href="#" id="homenavbar">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="academicsnavbar">Education and Experience</a>
+                    <a class="nav-link" href="#" id="academicsnavbar">Career</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="projectsnavbar">Projects</a>
@@ -39,16 +39,17 @@
     <!-- Home -->
     <div class="main">
         <div id="home">
-                <div class="centroverticalhome">
-                    <div class="row tamanohomemax justify-content-md-center align-items-center">
-                        <div class="col-2 text-center">
+            <div class="centroverticalhome">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-4 text-center">
                             <img src="pictures/me.png" class="mx-auto d-block img-fluid" alt="My picture">
                             <a href="resume/Resume.pdf" target="_blank" download>
                                 <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/file.png"
                                         width="30" />&nbsp Resume</button>
                             </a>
                         </div>
-                        <div class="col-5">
+                        <div class="col-8">
                             <h1>David Andrés Ramírez</h1>
                             <h3>Computer Engineer</h3>
                             <a href="mailto:davidsor100@gmail.com">davidsor100@gmail.com</a>
@@ -82,13 +83,14 @@
                                             src="pictures/iconos/facebook-logo.png" width="34" /></button>
                                 </a>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Educationn -->
-        <div id="academics" class="margenEducacion">
-            <div class="col-11">
+        <div id="academics">
+            <div class="container">
                 <div class="row">
                     <div class="col-6 text-center">
                         <h2 class="tituloEducacion">Education</h2>
@@ -154,119 +156,111 @@
         </div>
         <!-- Projects and Skills -->
         <!-- Skills -->
-        <div id="projects" class="margenEducacion">
-            <!-- Projects -->
-            <div class="col-11">
-
-                <div class="row">
-                    <div class="col text-center">
+        <div id="projects">
+            <div class="container">
+                <!-- Projects -->
+                <div class="row justify-content-md-center">
+                    <div class="col-12 text-center">
                         <h2 class="tituloEducacion">Projects</h2>
                     </div>
                 </div>
                 <!-- Card deck 1 -->
-                <div class="deck card-deck">
-                    <!-- Card 1 -->
-                    <div class="card">
-                        <img src="pictures/proyectos/moviles/moviles6.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">FisiApp</h5>
-                            <p class="card-text">A project aimed to help athletes with their injuries and their
-                                communication with physiotherapist.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard1">
-                                Learn more
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="card">
-                        <img src="pictures/proyectos/semantica/semantica2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Semantic Web</h5>
-                            <p class="card-text">A solution where anyone could look up papers in databases around
-                                the world.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard2">
-                                Learn more
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="card">
-                        <img src="pictures/proyectos/realidad/realidad2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mixed Reality</h5>
-                            <p class="card-text">A comparison between regular and mixed reality learning with
-                                college students.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard3">
-                                Learn more
-                            </button>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-deck justify-content-md-center">
+                            <!-- Card 1 -->
+                            <div class="card" style="max-width: 20rem;">
+                                <img src="pictures/proyectos/moviles/moviles6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FisiApp</h5>
+                                    <p class="card-text">A project aimed to help athletes with their injuries and their
+                                        communication with physiotherapist.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
+                                        data-target="#ModalCard1">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="card" style="max-width: 20rem;">
+                                <img src="pictures/proyectos/semantica/semantica2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Semantic Web</h5>
+                                    <p class="card-text">A solution where anyone could look up papers in databases
+                                        around
+                                        the world.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
+                                        data-target="#ModalCard2">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="card" style="max-width: 20rem;">
+                                <img src="pictures/proyectos/realidad/realidad2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mixed Reality</h5>
+                                    <p class="card-text">A comparison between regular and mixed reality learning with
+                                        college students.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
+                                        data-target="#ModalCard3">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Card deck 2 -->
-            <div class="col-11">
-                <div class="deck card-deck">
-                    <!-- Card 4 -->
-                    <div class="card">
-                        <img src="pictures/proyectos/carpooling/carpooling1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Carpooling</h5>
-                            <p class="card-text">An application for enterprises to build a carpooling community
-                                within their company.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard4">
-                                Learn more
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Card 5 -->
-                    <div class="card">
-                        <img src="pictures/proyectos/arte/arte1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">AdE</h5>
-                            <p class="card-text">A project where artists can find other artists with similar
-                                interests to work together in artworks.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard5">
-                                Learn more
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Card 6 -->
-                    <div class="card">
-                        <img src="pictures/ibm.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">TESIS</h5>
-                            <p class="card-text">TESIS TESIS TESIS TESIS TESIS</p>
-                        </div>
-                        <div class="card-footer">
-                            <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
-                                data-target="#ModalCard6">
-                                Learn more
-                            </button>
+                <!-- Card deck 2 -->
+                <div class="row deck2">
+                    <div class="col-12">
+                        <div class="card-deck justify-content-md-center">
+                            <!-- Card 4 -->
+                            <div class="card" style="max-width: 20rem;">
+                                <img src="pictures/proyectos/carpooling/carpooling1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carpooling</h5>
+                                    <p class="card-text">An application for enterprises to build a carpooling community
+                                        within their company.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
+                                        data-target="#ModalCard4">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="card" style="max-width: 20rem;">
+                                <img src="pictures/proyectos/arte/arte1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AdE</h5>
+                                    <p class="card-text">A project where artists can find other artists with similar
+                                        interests to work together in artworks.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal"
+                                        data-target="#ModalCard5">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="skills" class="margenEducacion">
-            <div class="col-11">
+        <div id="skills">
+            <div class="container">
                 <div class="row">
-                    <div class="col text-center">
+                    <div class="col-12 text-center">
                         <h2 class="tituloEducacion">Skills</h2>
                     </div>
                 </div>
@@ -345,21 +339,20 @@
                 </div>
             </div>
         </div>
+
         <!-- More About Me -->
-        <div id="other" class="margenEducacion">
-            <div class="col-11">
+        <div id="other">
+            <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h2 class="tituloEducacion text-center">Volunteers</h2>
+                    <div class="col-12 text-center">
+                        <h2 class="tituloEducacion">Volunteers</h2>
                     </div>
                 </div>
                 <div class="row">
                     <figure class="figure">
                         <div class="text-center">
-                        <img src="pictures/intereses/social1.jpg" class="figure-img rounded" width="40%"
-                            alt="...">
-                        <img src="pictures/intereses/social2.jpg" class="figure-img rounded" width="40%"
-                            alt="...">
+                            <img src="pictures/intereses/social1.jpg" class="figure-img rounded" width="45%" alt="...">
+                            <img src="pictures/intereses/social2.jpg" class="figure-img rounded" width="45%" alt="...">
                         </div>
                         <figcaption class="figure-caption text-center">I was teacher of low-income students in their
                             preparation for the
@@ -389,7 +382,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <h2 class="titulomoreme text-center">Interests</h2>
                     </div>
                 </div>
@@ -512,12 +505,12 @@
     </div>
     <!-- MODALES -->
     <!-- Modal Card 1 -->
-    <div class="modal fade" id="ModalCard1" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalCard1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">FisiApp</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">FisiApp - Mobile Application</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -527,10 +520,9 @@
                         <div class="row espacioProyectos">
                             <div class="col">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls>
-                                        <source src="videos/finalmov.mp4" type="video/mp4" />
+                                    <iframe allowfullscreen="true" src="https://www.youtube.com/embed/tIGn5Hsy98M">
                                         Your browser does not support the video tag.
-                                    </video>
+                                    </iframe>
                                 </div>
                             </div>
                             <div class="col">
@@ -644,12 +636,12 @@
         </div>
     </div>
     <!-- Modal Card 2 -->
-    <div class="modal fade" id="ModalCard2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalCard2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Semantic Web</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">Semantic Web Application</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -659,10 +651,9 @@
                         <div class="row espacioProyectos">
                             <div class="col">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls>
-                                        <source src="videos/semantica.mp4" type="video/mp4" />
+                                    <iframe allowfullscreen="true" src="https://www.youtube.com/embed/YIsR0va2TeY">
                                         Your browser does not support the video tag.
-                                    </video>
+                                    </iframe>
                                 </div>
                             </div>
                             <div class="col">
@@ -782,12 +773,12 @@
         </div>
     </div>
     <!-- Modal Card 3 -->
-    <div class="modal fade" id="ModalCard3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalCard3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Mixed Reality</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">Mixed Reality Application</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -797,10 +788,9 @@
                         <div class="row espacioProyectos">
                             <div class="col">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls>
-                                        <source src="videos/finalrea.mp4" type="video/mp4" />
+                                    <iframe allowfullscreen="true" src="https://www.youtube.com/embed/VzX3vpX_hpU">
                                         Your browser does not support the video tag.
-                                    </video>
+                                    </iframe>
                                 </div>
                             </div>
                             <div class="col">
@@ -881,12 +871,12 @@
         </div>
     </div>
     <!-- Modal Card 4 -->
-    <div class="modal fade" id="ModalCard4" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalCard4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Carpooling</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">Carpooling - Web Application</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -896,10 +886,9 @@
                         <div class="row espacioProyectos">
                             <div class="col">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls>
-                                        <source src="videos/web1.mp4" type="video/mp4" />
+                                    <iframe allowfullscreen="true" src="https://www.youtube.com/embed/OCgvRkFoWPE">
                                         Your browser does not support the video tag.
-                                    </video>
+                                    </iframe>
                                 </div>
                             </div>
                             <div class="col">
@@ -983,12 +972,12 @@
         </div>
     </div>
     <!-- Modal Card 5 -->
-    <div class="modal fade" id="ModalCard5" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalCard5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">AdE</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">AdE - Web Application</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -998,10 +987,9 @@
                         <div class="row espacioProyectos">
                             <div class="col">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video controls>
-                                        <source src="videos/ultimoweb.mp4" type="video/mp4" />
+                                    <iframe allowfullscreen="true" src="https://www.youtube.com/embed/rnmHWYhyu_g">
                                         Your browser does not support the video tag.
-                                    </video>
+                                    </iframe>
                                 </div>
                             </div>
                             <div class="col">
@@ -1092,27 +1080,6 @@
             </div>
         </div>
     </div>
-    <!-- Modal Card 6 -->
-    <div class="modal fade" id="ModalCard6" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="col-12 modal-title tituloModal" id="exampleModalLabel">Modal title</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- modal relevant coursework -->
     <div class="modal fade" id="modalRelevant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -1185,6 +1152,10 @@
                             <tr>
                                 <th scope="row">3</th>
                                 <td>Visual Basic Applications</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Application Deployments</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1264,7 +1235,7 @@
     <!-- modales imagenes -->
     <!-- arte -->
     <!-- modal 1 -->
-    <div class="modal fade" id="arte1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modalBug modal fade" id="arte1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -1275,8 +1246,8 @@
         </div>
     </div>
     <!-- modal 2 -->
-    <div class="modal fade" id="arte2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1286,8 +1257,8 @@
         </div>
     </div>
     <!-- modal 3 -->
-    <div class="modal fade" id="arte3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1297,8 +1268,8 @@
         </div>
     </div>
     <!-- modal 4 -->
-    <div class="modal fade" id="arte4" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1308,8 +1279,8 @@
         </div>
     </div>
     <!-- modal 5 -->
-    <div class="modal fade" id="arte5" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1319,8 +1290,8 @@
         </div>
     </div>
     <!-- modal 6 -->
-    <div class="modal fade" id="arte6" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1330,8 +1301,8 @@
         </div>
     </div>
     <!-- modal 7 -->
-    <div class="modal fade" id="arte7" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="arte7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1342,8 +1313,8 @@
     </div>
     <!-- comida -->
     <!-- modal 1 -->
-    <div class="modal fade" id="comida1" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="comida1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1353,8 +1324,8 @@
         </div>
     </div>
     <!-- modal 2 -->
-    <div class="modal fade" id="comida2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="comida2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1364,8 +1335,8 @@
         </div>
     </div>
     <!-- modal 3 -->
-    <div class="modal fade" id="comida3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="comida3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1375,8 +1346,8 @@
         </div>
     </div>
     <!-- modal 4 -->
-    <div class="modal fade" id="comida4" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="comida4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1386,8 +1357,8 @@
         </div>
     </div>
     <!-- modal 5 -->
-    <div class="modal fade" id="comida5" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="comida5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1398,8 +1369,8 @@
     </div>
     <!-- juegos -->
     <!-- modal 1 -->
-    <div class="modal fade" id="juego1" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1409,8 +1380,8 @@
         </div>
     </div>
     <!-- modal 2 -->
-    <div class="modal fade" id="juego2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1420,8 +1391,8 @@
         </div>
     </div>
     <!-- modal 3 -->
-    <div class="modal fade" id="juego3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1431,8 +1402,8 @@
         </div>
     </div>
     <!-- modal 4 -->
-    <div class="modal fade" id="juego4" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1442,8 +1413,8 @@
         </div>
     </div>
     <!-- modal 5 -->
-    <div class="modal fade" id="juego5" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1453,8 +1424,8 @@
         </div>
     </div>
     <!-- modal 6 -->
-    <div class="modal fade" id="juego6" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1464,8 +1435,8 @@
         </div>
     </div>
     <!-- modal 7 -->
-    <div class="modal fade" id="juego7" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1475,8 +1446,8 @@
         </div>
     </div>
     <!-- modal 8 -->
-    <div class="modal fade" id="juego8" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="juego8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1487,8 +1458,8 @@
     </div>
     <!-- viajes -->
     <!-- modal 1 -->
-    <div class="modal fade" id="viaje1" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="viaje1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1498,8 +1469,8 @@
         </div>
     </div>
     <!-- modal 2 -->
-    <div class="modal fade" id="viaje2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="viaje2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1509,8 +1480,8 @@
         </div>
     </div>
     <!-- modal 3 -->
-    <div class="modal fade" id="viaje3" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="viaje3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1520,8 +1491,8 @@
         </div>
     </div>
     <!-- modal 4 -->
-    <div class="modal fade" id="viaje4" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="viaje4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1531,8 +1502,8 @@
         </div>
     </div>
     <!-- modal 5 -->
-    <div class="modal fade" id="viaje5" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modalBug modal fade" id="viaje5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
