@@ -3,6 +3,7 @@ document.getElementById("homenavbar").onclick = function() {
     document.getElementById("skills").style.display = "none"; 
     document.getElementById("projects").style.display = "none"; 
     document.getElementById("other").style.display = "none"; 
+    document.getElementById("certificates").style.display = "none"; 
     document.getElementById("home").style.display = "block";
 }
 
@@ -11,7 +12,17 @@ document.getElementById("academicsnavbar").onclick = function() {
     document.getElementById("skills").style.display = "none"; 
     document.getElementById("projects").style.display = "none"; 
     document.getElementById("other").style.display = "none"; 
+    document.getElementById("certificates").style.display = "none"; 
     document.getElementById("academics").style.display = "block"; 
+}
+
+document.getElementById("certificatesnavbar").onclick = function() { 
+  document.getElementById("home").style.display = "none"; 
+  document.getElementById("skills").style.display = "none"; 
+  document.getElementById("projects").style.display = "none"; 
+  document.getElementById("other").style.display = "none"; 
+  document.getElementById("academics").style.display = "none";
+  document.getElementById("certificates").style.display = "block"; 
 }
 
 document.getElementById("skillsnavbar").onclick = function() { 
@@ -19,6 +30,7 @@ document.getElementById("skillsnavbar").onclick = function() {
     document.getElementById("home").style.display = "none"; 
     document.getElementById("projects").style.display = "none"; 
     document.getElementById("other").style.display = "none"; 
+    document.getElementById("certificates").style.display = "none"; 
     document.getElementById("skills").style.display = "block"; 
 }
 
@@ -27,6 +39,7 @@ document.getElementById("projectsnavbar").onclick = function() {
     document.getElementById("skills").style.display = "none"; 
     document.getElementById("home").style.display = "none"; 
     document.getElementById("other").style.display = "none"; 
+    document.getElementById("certificates").style.display = "none"; 
     document.getElementById("projects").style.display = "block"; 
 }
 
@@ -35,6 +48,7 @@ document.getElementById("othernavbar").onclick = function() {
     document.getElementById("skills").style.display = "none"; 
     document.getElementById("projects").style.display = "none"; 
     document.getElementById("home").style.display = "none"; 
+    document.getElementById("certificates").style.display = "none"; 
     document.getElementById("other").style.display = "block"; 
 }
 

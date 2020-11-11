@@ -2,7 +2,7 @@
     margin-left: 12rem;
 }
 
-.centroverticalhome{
+.certerVerticalHome {
     position: absolute;
     top: 50%;
     left: 53%;
@@ -10,12 +10,12 @@
     transform: translate(-50%, -50%);
 }
 
-.deck2{
+.deck2 {
     margin-top:2em;
     margin-bottom: 2em;
 }
 
-.iconosCentradosHome{
+.iconsCenteredHome{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,10 @@
 
 #other {
     display: none;
+}
+
+#certificates {
+  display: none;
 }
 
 #sideNav {
@@ -81,86 +85,102 @@
     text-align: center;
 }
 
-#introparragraph{
+#introparragraph {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: justify;
 }
 
-.iconos{
+.icons {
     margin-right: 3.5em;
     text-decoration: none !important;
 }
 
-.tituloEducacion{
+.titleEducation {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.titulomoreme{
+.titleMe {
     margin-bottom: 1em;
 }
 
-.skillsElemento{
+.skillsElement {
     margin-top: 2em;
     display: block;
     margin-left: auto;
     margin-right: auto;
  }
 
- .skillsPrimerElemento{
+ .skillsFirstElement {
     display: block;
     margin-left: auto;
     margin-right: auto;
  }
 
- .iconosProyectos{
+ .projectIcons {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;  
  }
 
- .justificacion{
+ .justificacion {
     text-align: justify;
     text-justify: inter-word;
  }
 
- .espacioProyectos{
+ .spacingProjects {
     padding-top: 1em;
     padding-bottom: 1em;
  }
 
-  .tituidioma{
+  .titleLanguage {
     font-weight: bold;
     font-size: large;
     margin-top: 0.5em;
   }
 
-  .linea{
+  .line {
     background-image: linear-gradient(#000, #000);
     background-size: 2px 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
 
-  .centroImagenUniversidad{
+  .containerImages {
     margin-top: auto;
     margin-bottom: auto;
   }
   
-  .tamanoImagenUniversidad{
+  .careerImages {
     max-width:100%;
     padding-left: 1em;
   }
 
-  .tablasSkills{
+  .skillTables {
     margin-bottom: 2em;
   }
 
-  .cardInteresesFinal{
-      margin-top: 2em;
+  .interestsCards {
+    margin-top: 2em;
   }
 
-  .margenfinalintereses{
-      margin-bottom: 3em;
+  .marginEndPageInterests {
+    margin-bottom: 3em;
+  }
+
+  .imagesCertificates {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-left: 1em;
+  }
+
+  .certificateTableCell {
+    width: 60%;
+  }
+
+  .marginCertificationCards {
+    margin-bottom: 2em;
   }
