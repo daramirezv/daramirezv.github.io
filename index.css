@@ -184,3 +184,27 @@
   .marginCertificationCards {
     margin-bottom: 2em;
   }
+
+  #expressTopMargin {
+    margin-top: 3.5em;
+  }
+
+  #csharpTopMargin {
+    margin-top: 1em;
+  }
+
+  #reactTopMargin {
+    margin-top: 1em;
+  }
+
+  #mongoTopMargin {
+    margin-top: 1em;
+  }
+
+  #roomTopMargin {
+    margin-top: 1em;
+  }
+
+  #expressProject {
+    margin-bottom: -4em;
+  }

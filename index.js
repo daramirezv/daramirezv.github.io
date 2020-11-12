@@ -72,6 +72,10 @@ $('#ModalCard5').on('hidden.bs.modal', function (e) {
     $('#ModalCard5 iframe').attr("src", "https://www.youtube.com/embed/rnmHWYhyu_g");
 });
 
+//$('#ModalCard6').on('hidden.bs.modal', function (e) {
+//  $('#ModalCard6 iframe').attr("src", "https://www.youtube.com/embed/rnmHWYhyu_g");
+//});
+
 $('.modalBug').on('show.bs.modal', function (e) {
     $('nav.navbar').attr("style", "padding-right:0px;");
 });
