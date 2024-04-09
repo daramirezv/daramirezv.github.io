@@ -4,360 +4,334 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="index.css">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>David Ramirez</title>
   <link rel="icon" type="image/png" href="pictures/iconos/cat.png" />
+  <title>David Ramirez</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="homenavbar">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="academicsnavbar">Career</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="certificatesnavbar">Certifications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="projectsnavbar">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="skillsnavbar">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="othernavbar">More</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="homenavbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="academicsnavbar">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="certificatesnavbar">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="projectsnavbar">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="skillsnavbar">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="othernavbar">More</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <!-- Home -->
   <div class="main">
-    <div id="home">
-      <div class="certerVerticalHome">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-4 text-center">
-              <img src="pictures/me.png" width="200" class="mx-auto d-block img-fluid figure-img rounded"
-                alt="My picture">
-              <a href="resume/Resume.pdf" target="_blank" download>
-                <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/file.png" width="30" />&nbsp
-                  Resume</button>
-              </a>
-            </div>
-            <div class="col-8">
-              <h1>David Andrés Ramírez Vanegas</h1>
-              <h3>Systems and Computing Engineer</h3>
-              <a href="mailto:da.ramirezv@uniandes.edu.co">da.ramirezv@uniandes.edu.co</a>
-              <p id="introparragraph">Hello everyone, I'm currently working at Twilio developing APIs that automate communications for
-                millions of users from all around the world. Additionally, I worked at Blackboard developing web applications to
-                improve the interactions between students and teachers. I also did an internship at IBM as a web developer. I
-                graduated as systems and computing engineer at The University of Los Andes. My interests are cooking, video games,
-                music, traveling, and coding.
-              </p>
-              <div class="iconsCenteredHome">
-                <a href="https://github.com/daramirezv" class="" target="_blank">
-                  <button type="button" class="btn btn-dark btn-lg botonGithub"><img
-                      src="pictures/iconos/github-logo.png" width="34" /></button>
-                </a>
-                <a href="https://www.linkedin.com/in/david-andr%C3%A9s-ram%C3%ADrez-vanegas/" class="" target="_blank">
-                  <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/linkedin-letters.png"
-                      width="34" /></button>
-                </a>
-                <a href="https://twitter.com/DavidAndrsRamr3" class="" target="_blank">
-                  <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/twitter.png"
-                      width="34" /></button>
-                </a>
-                <a href="https://www.facebook.com/davidramirez96" class="" target="_blank">
-                  <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/facebook-logo.png"
-                      width="34" /></button>
-                </a>
-              </div>
-            </div>
+    <div class="home container align-items-center" id="home">
+      <div class="row home-wrapper">
+        <div class="col-md-4 text-center home-left-column">
+          <img src="pictures/me.png" width="200" class="mx-auto d-block img-fluid figure-img rounded" alt="My picture">
+          <a href="resume/Resume.pdf" target="_blank" download>
+            <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/file.png" width="30" />&nbsp
+              Resume</button>
+          </a>
+        </div>
+        <div class="col-md-8">
+          <p class="home-name">David Andrés Ramírez Vanegas</p>
+          <p class="home-degree">Systems and Computing Engineer</p>
+          <a href="mailto:da.ramirezv@uniandes.edu.co">da.ramirezv@uniandes.edu.co</a>
+          <p class="home-intro-parragraph">Hello everyone, I'm currently working at Twilio developing APIs that automate
+            communications for
+            millions of users from all around the world. Additionally, I worked at Blackboard developing web
+            applications to
+            improve the interactions between students and teachers. I also did an internship at IBM as a web
+            developer. I
+            graduated as systems and computing engineer at The University of Los Andes. My interests are cooking,
+            video games,
+            music, traveling, and coding.
+          </p>
+          <div class="home-icons-centered">
+            <a href="https://github.com/daramirezv" target="_blank">
+              <button type="button" class="btn btn-dark btn-lg botonGithub"><img src="pictures/iconos/github-logo.png"
+                  width="34" /></button>
+            </a>
+            <a href="https://www.linkedin.com/in/david-andr%C3%A9s-ram%C3%ADrez-vanegas/" target="_blank">
+              <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/linkedin-letters.png"
+                  width="34" /></button>
+            </a>
+            <a href="https://twitter.com/DavidAndrsRamr3" target="_blank">
+              <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/twitter.png"
+                  width="34" /></button>
+            </a>
+            <a href="https://www.facebook.com/davidramirez96" target="_blank">
+              <button type="button" class="btn btn-dark btn-lg"><img src="pictures/iconos/facebook-logo.png"
+                  width="34" /></button>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Education -->
-    <div id="academics">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 text-center">
-            <h2 class="titleEducation">Education</h2>
-          </div>
-          <div class="col-6 text-center">
-            <h2 class="titleEducation">Work Experience</h2>
-          </div>
-        </div>
-        <div class="row line">
-          <div class="col-6">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">Universidad de los Andes</h5>
-              <div class="row no-gutters">
-                <div class="col-md-4 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/University_of_Los_Andes_(Colombia)" target="_blank">
-                    <img src="pictures/logoandes.png" class="careerImages" alt="University of Los Andes">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p class="card-text">Systems and Computing Engineering</p>
-                    <p class="card-text">Scholarship Beneficiary</p>
-                    <p class="card-text">July 2015 - July 2020</p>
-                    <p class="card-text">Bogotá, Colombia</p>
-                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalRelevant">Relevant
-                      Coursework</button>
-                  </div>
-                </div>
+    <!-- Career -->
+    <div id="academics" class="container">
+      <div class="row">
+        <!-- Education -->
+        <div class="col-md-6 text-center">
+          <p class="title-education">Education</p>
+          <!-- Card 1 -->
+          <div class="card">
+            <h5 class="card-header text-center">Universidad de los Andes</h5>
+            <div class="row">
+              <div class="col-md-5 container-images">
+                <a href="https://en.wikipedia.org/wiki/University_of_Los_Andes_(Colombia)" class="container-images-link"
+                  target="_blank">
+                  <img class="careerImages" src="pictures/logoandes.png" alt="University of Los Andes">
+                </a>
               </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">Twilio</h5>
-              <div class="row no-gutters">
-                <div class="col-md-4 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/Twilio" target="_blank">
-                    <img class="careerImages" src="pictures/twilio.png" alt="Twilio">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p class="card-text">Product Development</p>
-                    <p class="card-text">Software Engineer</p>
-                    <p class="card-text">October 2021 - Present</p>
-                    <p class="card-text">Bogotá, Colombia</p>
-                    <button type="button" class="btn btn-dark" data-toggle="modal"
-                      data-target="#modalTasksTwilio">Tasks</button>
-                  </div>
-                </div>
+              <div class="col-md-7 card-body">
+                <p class="card-text">Systems and Computing Engineering</p>
+                <p class="card-text">Scholarship Beneficiary</p>
+                <p class="card-text">July 2015 - July 2020</p>
+                <p class="card-text">Bogotá, Colombia</p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#modalRelevant">Relevant
+                  Coursework</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row line">
-          <div class="col-6"></div>
-          <div class="col-6">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">Blackboard</h5>
-              <div class="row no-gutters">
-                <div class="col-md-4 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/Blackboard_Inc." target="_blank">
-                    <img class="careerImages" src="pictures/blackboard.jpg" alt="Blackboard">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p class="card-text">Product Development</p>
-                    <p class="card-text">Software Engineer</p>
-                    <p class="card-text">August 2020 - October 2021</p>
-                    <p class="card-text">Bogotá, Colombia</p>
-                    <button type="button" class="btn btn-dark" data-toggle="modal"
-                      data-target="#modalTasksBlackboard">Tasks</button>
-                  </div>
-                </div>
+        <!-- Work -->
+        <div class="col-md-6 text-center">
+          <p class="title-education">Work Experience</p>
+          <!-- Card 1 -->
+          <div class="card mb-3">
+            <h5 class="card-header text-center">Twilio</h5>
+            <div class="row">
+              <div class="col-md-5 container-images">
+                <a href="https://en.wikipedia.org/wiki/Twilio" class="container-images-link" target="_blank">
+                  <img class="careerImages" src="pictures/twilio.png" alt="Twilio">
+                </a>
+              </div>
+              <div class="col-md-7 card-body">
+                <p class="card-text">Product Development</p>
+                <p class="card-text">Software Engineer</p>
+                <p class="card-text">October 2021 - Present</p>
+                <p class="card-text">Bogotá, Colombia</p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#modalTasksTwilio">Tasks</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card mb-3">
+            <h5 class="card-header text-center">Blackboard</h5>
+            <div class="row">
+              <div class="col-md-5 container-images">
+                <a href="https://en.wikipedia.org/wiki/Blackboard_Inc." class="container-images-link" target="_blank">
+                  <img class="careerImages" src="pictures/blackboard.jpg" alt="Blackboard">
+                </a>
+              </div>
+              <div class="col-md-7 card-body">
+                <p class="card-text">Product Development</p>
+                <p class="card-text">Software Engineer</p>
+                <p class="card-text">August 2020 - October 2021</p>
+                <p class="card-text">Bogotá, Colombia</p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#modalTasksBlackboard">Tasks</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card mb-3">
+            <h5 class="card-header text-center">IBM</h5>
+            <div class="row">
+              <div class="col-md-5 container-images">
+                <a href="https://en.wikipedia.org/wiki/IBM" class="container-images-link" target="_blank">
+                  <img class="careerImages" src="pictures/ibm.png" alt="IBM">
+                </a>
+              </div>
+              <div class="col-md-7 card-body">
+                <p class="card-text">Global Business Services</p>
+                <p class="card-text">Internship</p>
+                <p class="card-text">July 2019 - January 2020</p>
+                <p class="card-text">Bogotá, Colombia</p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#modalTasksIBM">Tasks</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row line">
-          <div class="col-6"></div>
-          <div class="col-6">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">IBM</h5>
-              <div class="row no-gutters">
-                <div class="col-md-4 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/IBM" target="_blank">
-                    <img class="careerImages" src="pictures/ibm.png" alt="IBM">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p class="card-text">Global Business Services</p>
-                    <p class="card-text">Internship</p>
-                    <p class="card-text">July 2019 - January 2020</p>
-                    <p class="card-text">Bogotá, Colombia</p>
-                    <button type="button" class="btn btn-dark" data-toggle="modal"
-                      data-target="#modalTasksIBM">Tasks</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
       </div>
     </div>
     <!-- Certificates -->
-    <div id="certificates">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-12 text-center">
-            <h2 class="titleEducation">Certificates</h2>
-          </div>
-        </div>
-        <div class="row marginCertificationCards">
-          <div class="col-12">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">Coursera</h5>
-              <div class="row no-gutters">
-                <div class="col-md-3 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/Coursera" target="_blank">
-                    <img src="pictures/coursera.jpg" class="imagesCertificates" alt="Coursera">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <table class="table centerCertificates">
-                      <tbody>
-                        <tr>
-                          <td class="certificateTableCell">Machine Learning with TensorFlow on Google Cloud Platform
-                            Specialization</td>
-                          <td>September 2020</td>
-                          <td><a
-                              href="https://www.coursera.org/account/accomplishments/specialization/certificate/RL4GFVKHUL34"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Art and Science of Machine Learning</td>
-                          <td>September 2020</td>
-                          <td><a href="https://www.coursera.org/account/accomplishments/certificate/LM7ST3LSGN3A"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Feature Engineering</td>
-                          <td>August 2020</td>
-                          <td><a href="https://www.coursera.org/account/accomplishments/certificate/XR37AK4SR4MT"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Intro to TensorFlow</td>
-                          <td>May 2020</td>
-                          <td><a href="https://www.coursera.org/account/accomplishments/certificate/J6GNEP2S9ZKD"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">How Google does Machine Learning</td>
-                          <td>April 2020</td>
-                          <td><a href="https://www.coursera.org/account/accomplishments/certificate/G6V8SAJ9BU35"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Launching into Machine Learning</td>
-                          <td>April 2020</td>
-                          <td><a href="https://www.coursera.org/account/accomplishments/certificate/W2HRTFDRAQ48"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="col-md-1"></div>
+    <div id="certificates" class="container">
+      <div class="row justify-content-md-center text-center">
+        <p class="title-certificates">Certificates</p>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-3">
+            <h5 class="card-header text-center">Coursera</h5>
+            <div class="row">
+              <div class="col-md-3 container-images">
+                <a href="https://en.wikipedia.org/wiki/Coursera" class="certificates-images-link" target="_blank">
+                  <img src="pictures/coursera.jpg" class="images-certificates" alt="Coursera">
+                </a>
+              </div>
+              <div class="col-md-8 card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="certificate-table-cell">Machine Learning with TensorFlow on Google Cloud Platform
+                        Specialization</td>
+                      <td>September 2020</td>
+                      <td><a
+                          href="https://www.coursera.org/account/accomplishments/specialization/certificate/RL4GFVKHUL34"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Art and Science of Machine Learning</td>
+                      <td>September 2020</td>
+                      <td><a href="https://www.coursera.org/account/accomplishments/certificate/LM7ST3LSGN3A"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Feature Engineering</td>
+                      <td>August 2020</td>
+                      <td><a href="https://www.coursera.org/account/accomplishments/certificate/XR37AK4SR4MT"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Intro to TensorFlow</td>
+                      <td>May 2020</td>
+                      <td><a href="https://www.coursera.org/account/accomplishments/certificate/J6GNEP2S9ZKD"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">How Google does Machine Learning</td>
+                      <td>April 2020</td>
+                      <td><a href="https://www.coursera.org/account/accomplishments/certificate/G6V8SAJ9BU35"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Launching into Machine Learning</td>
+                      <td>April 2020</td>
+                      <td><a href="https://www.coursera.org/account/accomplishments/certificate/W2HRTFDRAQ48"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
-        <div class="row marginCertificationCards">
-          <div class="col-12">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">IBM</h5>
-              <div class="row no-gutters">
-                <div class="col-md-3 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/IBM" target="_blank">
-                    <img src="pictures/ibm.png" class="imagesCertificates" alt="IBM">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <table class="table centerCertificates">
-                      <tbody>
-                        <tr>
-                          <td class="certificateTableCell">Data Science Foundations - Level 1</td>
-                          <td>January 2020</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/1c30ee92-4eed-499a-a98f-2788f7fb5500/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Python for Data Science</td>
-                          <td>January 2020</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/4e4a0734-0c8e-45a6-bd11-eb757a08690c/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">IBM Agile Explorer</td>
-                          <td>December 2019</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/9669482f-c32e-4589-a585-d44f7c7a80d5/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Enterprise Design Thinking Practitioner</td>
-                          <td>August 2019</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/2085c22d-6aac-49d8-b23e-53ddb140a644/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">IBM Blockchain Essentials</td>
-                          <td>July 2019</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/b31b0731-1fc1-44a7-99bc-174a37e5f7e1/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                        <tr>
-                          <td class="certificateTableCell">Watson and Cloud Foundations</td>
-                          <td>July 2019</td>
-                          <td><a
-                              href="https://www.youracclaim.com/badges/43aa54cd-b63f-4f85-9a91-4dec7745b330/linked_in_profile"
-                              target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="col-md-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-3">
+            <h5 class="card-header text-center">IBM</h5>
+            <div class="row">
+              <div class="col-md-3 container-images">
+                <a href="https://en.wikipedia.org/wiki/IBM" class="certificates-images-link" target="_blank">
+                  <img src="pictures/ibm.png" class="images-certificates" alt="IBM">
+                </a>
+              </div>
+              <div class="col-md-8 card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="certificate-table-cell">Data Science Foundations - Level 1</td>
+                      <td>January 2020</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/1c30ee92-4eed-499a-a98f-2788f7fb5500/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Python for Data Science</td>
+                      <td>January 2020</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/4e4a0734-0c8e-45a6-bd11-eb757a08690c/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">IBM Agile Explorer</td>
+                      <td>December 2019</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/9669482f-c32e-4589-a585-d44f7c7a80d5/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Enterprise Design Thinking Practitioner</td>
+                      <td>August 2019</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/2085c22d-6aac-49d8-b23e-53ddb140a644/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">IBM Blockchain Essentials</td>
+                      <td>July 2019</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/b31b0731-1fc1-44a7-99bc-174a37e5f7e1/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                    <tr>
+                      <td class="certificate-table-cell">Watson and Cloud Foundations</td>
+                      <td>July 2019</td>
+                      <td><a
+                          href="https://www.youracclaim.com/badges/43aa54cd-b63f-4f85-9a91-4dec7745b330/linked_in_profile"
+                          target="_blank"><img src="pictures/iconos/certificado.png" width="30" alt=""></a></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
-        <div class="row marginCertificationCards">
-          <div class="col-12">
-            <div class="card mb-3">
-              <h5 class="card-header text-center">IELTS</h5>
-              <div class="row no-gutters">
-                <div class="col-md-3 containerImages">
-                  <a href="https://en.wikipedia.org/wiki/International_English_Language_Testing_System" target="_blank">
-                    <img src="pictures/ielts.png" class="imagesCertificates" alt="IELTS">
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <table class="table centerCertificates">
-                      <tbody>
-                        <tr>
-                          <td class="certificateTableCell">English Language Proficiency Score: 7.5/9</td>
-                          <td>November 2020</td>
-                          <td>
-                            <a href="documents/IELTS.pdf" target="_blank" download>
-                              <img src="pictures/iconos/download.png" width="30" alt="" />
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="col-md-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-3">
+            <h5 class="card-header text-center">IELTS</h5>
+            <div class="row">
+              <div class="col-md-3 container-images">
+                <a href="https://en.wikipedia.org/wiki/International_English_Language_Testing_System"
+                  class="certificates-images-link" target="_blank">
+                  <img src="pictures/ielts.png" class="images-certificates" alt="IELTS">
+                </a>
+              </div>
+              <div class="col-md-8 card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="certificate-table-cell">English Language Proficiency Score: 7.5/9</td>
+                      <td>November 2020</td>
+                      <td>
+                        <a href="documents/IELTS.pdf" target="_blank" download>
+                          <img src="pictures/iconos/download.png" width="30" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -370,104 +344,115 @@
         <!-- Projects -->
         <div class="row justify-content-md-center">
           <div class="col-12 text-center">
-            <h2 class="titleEducation">Projects</h2>
+            <p class="title-projects">Projects</p>
           </div>
         </div>
-        <!-- Card deck 1 -->
-        <div class="row">
-          <div class="col-12">
-            <div class="card-deck justify-content-md-center">
-              <!-- Card 1 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/savd3/savd31.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">SAVD3 <span class="badge badge-dark">Thesis</span></h5>
-                  <p class="card-text">Modern visualizations for gene and protein multiple sequence alignments.</p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard6">
-                    Learn more
-                  </button>
-                </div>
+        <!-- Row 1 -->
+        <div class="row text-center">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/savd3/savd31.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SAVD3 <span class="text-bg-dark badge">Thesis</span></h5>
+                <p class="card-text">Modern visualizations for gene and protein multiple sequence alignments.</p>
               </div>
-              <!-- Card 2 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/semantica/semantica2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Semantic Web</h5>
-                  <p class="card-text">A solution where anyone can look up papers stored in databases from all around
-                    the world.</p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard2">
-                    Learn more
-                  </button>
-                </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard6">
+                  Learn more
+                </button>
               </div>
-              <!-- Card 3 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/realidad/realidad2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mixed Reality</h5>
-                  <p class="card-text">A comparison between regular and mixed reality learning with
-                    university students.</p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard3">
-                    Learn more
-                  </button>
-                </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/semantica/semantica2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semantic Web</h5>
+                <p class="card-text">A solution where anyone can look up papers stored in databases from all around
+                  the world.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard2">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/realidad/realidad2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mixed Reality</h5>
+                <p class="card-text">A comparison between regular and mixed reality learning with
+                  university students.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard3">
+                  Learn more
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <!-- Card deck 2 -->
-        <div class="row deck2">
-          <div class="col-12">
-            <div class="card-deck justify-content-md-center">
-              <!-- Card 4 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/arte/arte1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">AdE</h5>
-                  <p class="card-text">A project where artists can find other artists with similar interests and post
-                    their artworks.</p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard5">
-                    Learn more
-                  </button>
-                </div>
+        <!-- Card row 2 -->
+        <div class="row text-center">
+          <!-- Card 4 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/arte/arte1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AdE</h5>
+                <p class="card-text">A project where artists can find other artists with similar interests and post
+                  their artworks.</p>
               </div>
-              <!-- Card 5 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/moviles/moviles6.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">FisiApp</h5>
-                  <p class="card-text">A project aimed to help athletes with their injuries and their communication with
-                    physiotherapists.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard1">
-                    Learn more
-                  </button>
-                </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard5">
+                  Learn more
+                </button>
               </div>
-              <!-- Card 6 -->
-              <div class="card" style="max-width: 20rem;">
-                <img src="pictures/proyectos/carpooling/carpooling1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Carpooling</h5>
-                  <p class="card-text">An application for enterprises to build a carpooling community within their
-                    company.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ModalCard4">
-                    Learn more
-                  </button>
-                </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/moviles/moviles6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FisiApp</h5>
+                <p class="card-text">A project aimed to help athletes with their injuries and their communication
+                  with
+                  physiotherapists.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard1">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col-md-4">
+            <div class="project-card card mb-3">
+              <img src="pictures/proyectos/carpooling/carpooling1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carpooling</h5>
+                <p class="card-text">An application for enterprises to build a carpooling community within their
+                  company.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal"
+                  data-bs-target="#ModalCard4">
+                  Learn more
+                </button>
               </div>
             </div>
           </div>
@@ -479,56 +464,51 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="titleEducation">Skills</h2>
+            <p class="title-skills">Skills</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-4 skillTables">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card mb-3 text-center">
               <div class="card-header">
                 <h6>Frameworks / Libraries</h6>
               </div>
               <div class="card-body">
-                <img src="pictures/skills/angular.png" class="skillsFirstElement" height="70em" alt="angular">
-                <img src="pictures/skills/react.png" class="skillsElement" id="csharpTopMargin" height="60em"
+                <img src="pictures/skills/angular.png" class="skills-first-element" height="70em" alt="angular">
+                <img src="pictures/skills/react.png" class="skills-element" id="reactTopMargin" height="60em"
                   alt="react">
-                <img src="pictures/skills/meteor.png" class="skillsElement" height="30em" alt="meteor">
-                <img src="pictures/skills/express.png" class="skillsElement" id="expressTopMargin" height="30em"
+                <img src="pictures/skills/meteor.png" class="skills-element" height="30em" alt="meteor">
+                <img src="pictures/skills/express.png" class="skills-element" id="expressTopMargin" height="30em"
                   alt="express">
-                <img src="pictures/skills/android.png" class="skillsElement" height="80em" alt="android">
-                <img src="pictures/skills/unity.png" class="skillsElement" height="50em" alt="unity">
-                <img src="pictures/skills/d3.png" class="skillsElement" height="50em" alt="d3">
+                <img src="pictures/skills/android.png" class="skills-element" height="80em" alt="android">
+                <img src="pictures/skills/unity.png" class="skills-element" height="50em" alt="unity">
               </div>
             </div>
           </div>
-          <div class="col-4 skillTables">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card mb-3 text-center">
               <div class="card-header">
                 <h6>Languages</h6>
               </div>
               <div class="card-body">
-                <img src="pictures/skills/java.png" class="skillsFirstElement" height="70em" alt="java">
-                <img src="pictures/skills/python.png" class="skillsElement" height="50em" alt="python">
-                <img src="pictures/skills/javascript.png" class="skillsElement" height="80em" alt="javascript">
-                <img src="pictures/skills/html.png" class="skillsElement" height="100em" alt="html">
-                <img src="pictures/skills/csharp.png" class="skillsElement" id="csharpTopMargin" height="65em"
-                  alt="csharp">
-                <img src="pictures/skills/sql.png" class="skillsElement" height="55em" alt="sql">
-                <img src="pictures/skills/sparql.png" class="skillsElement" height="60em" alt="sparql">
+                <img src="pictures/skills/java.png" class="skills-first-element" height="70em" alt="java">
+                <img src="pictures/skills/python.png" class="skills-element" height="50em" alt="python">
+                <img src="pictures/skills/javascript.png" class="skills-element" height="80em" alt="javascript">
+                <img src="pictures/skills/html.png" class="skills-element" height="100em" alt="html">
+                <img src="pictures/skills/sql.png" class="skills-element" height="55em" alt="sql">
               </div>
             </div>
           </div>
-          <div class="col-4 skillTables">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card mb-3 text-center">
               <div class="card-header">
                 <h6>Databases</h6>
               </div>
               <div class="card-body">
-                <img src="pictures/skills/oracle.png" class="skillsFirstElement" height="80em" alt="oracle">
-                <img src="pictures/skills/mongo.png" class="skillsElement" id="mongoTopMargin" height="40em"
+                <img src="pictures/skills/mongo.png" class="skills-element" id="mongoTopMargin" height="40em"
                   alt="mongo">
-                <img src="pictures/skills/firebase.png" class="skillsElement" height="50em" alt="java">
-                <img src="pictures/skills/room.png" class="skillsElement" id="roomTopMargin" height="90em" alt="java">
+                <img src="pictures/skills/firebase.png" class="skills-element" height="50em" alt="java">
+                <img src="pictures/skills/room.png" class="skills-element" id="roomTopMargin" height="90em" alt="java">
               </div>
             </div>
           </div>
@@ -540,154 +520,37 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="titleEducation">Volunteers</h2>
+            <p class="more-volunteer">Volunteers</p>
           </div>
         </div>
         <div class="row">
-          <figure class="figure">
-            <div class="text-center">
-              <img src="pictures/intereses/social1.jpg" class="figure-img rounded" width="45%" alt="...">
-              <img src="pictures/intereses/social2.jpg" class="figure-img rounded" width="45%" alt="...">
-            </div>
-            <figcaption class="figure-caption text-center">I was a teacher of low-income students in their
-              preparation for the
-              National High School Exam.</figcaption>
-          </figure>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h2 class="titleMe text-center">Languages</h2>
+          <div class="col-md-6 text-center">
+            <img src="pictures/intereses/social1.jpg" class="figure-img rounded" width="90%" alt="...">
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="pictures/intereses/social2.jpg" class="figure-img rounded" width="90%" alt="...">
           </div>
         </div>
         <div class="row">
-          <div class="col-6 text-center">
+          <p class="text-center">I was a teacher of low-income students in their
+            preparation for the
+            National High School Exam.</p>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="more-languages">Languages</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 text-center">
             <img src="pictures/idiomas/colombia.png" height="100" alt="...">
-            <p class="titleLanguage">Spanish</p>
+            <p class="language-title">Spanish</p>
             <p>Native Proficiency</p>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-sm-6 text-center">
             <img src="pictures/idiomas/usa.png" height="100" alt="...">
-            <p class="titleLanguage">English</p>
+            <p class="language-title">English</p>
             <p>C1 Proficiency</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h2 class="titleMe text-center">Interests</h2>
-          </div>
-        </div>
-        <div class="row marginEndPageInterests">
-          <div class="col-3">
-            <h6 class="text-center">Digital Art</h6>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art1.jpg" data-toggle="modal" data-target="#arte1" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art2.jpg" data-toggle="modal" data-target="#arte2" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art3.jpg" data-toggle="modal" data-target="#arte3" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art4.jpg" data-toggle="modal" data-target="#arte4" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art5.jpg" data-toggle="modal" data-target="#arte5" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art6.jpg" data-toggle="modal" data-target="#arte6" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/art/art7.jpg" data-toggle="modal" data-target="#arte7" class="card-img-top"
-                alt="...">
-            </div>
-          </div>
-          <div class="col-3">
-            <h6 class="text-center">Food and Cooking</h6>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/comida/comida1.jpg" data-toggle="modal" data-target="#comida1"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/comida/comida2.jpg" data-toggle="modal" data-target="#comida2"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/comida/comida3.jpg" data-toggle="modal" data-target="#comida3"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/comida/comida4.jpg" data-toggle="modal" data-target="#comida4"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/comida/comida5.jpg" data-toggle="modal" data-target="#comida5"
-                class="card-img-top" alt="...">
-            </div>
-          </div>
-          <div class="col-3">
-            <h6 class="text-center">Video Games</h6>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego1.jpg" data-toggle="modal" data-target="#juego1"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego2.jpg" data-toggle="modal" data-target="#juego2"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego3.jpg" data-toggle="modal" data-target="#juego3"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego4.jpg" data-toggle="modal" data-target="#juego4"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego5.jpg" data-toggle="modal" data-target="#juego5"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego6.jpg" data-toggle="modal" data-target="#juego6"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego7.jpg" data-toggle="modal" data-target="#juego7"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/games/juego8.jpg" data-toggle="modal" data-target="#juego8"
-                class="card-img-top" alt="...">
-            </div>
-          </div>
-          <div class="col-3">
-            <h6 class="text-center">Traveling</h6>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/viaje/viaje1.jpg" data-toggle="modal" data-target="#viaje1"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/viaje/viaje2.jpg" data-toggle="modal" data-target="#viaje2"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/viaje/viaje3.jpg" data-toggle="modal" data-target="#viaje3"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/viaje/viaje4.jpg" data-toggle="modal" data-target="#viaje4"
-                class="card-img-top" alt="...">
-            </div>
-            <div class="card interestsCards">
-              <img src="pictures/intereses/viaje/viaje5.jpg" data-toggle="modal" data-target="#viaje5"
-                class="card-img-top" alt="...">
-            </div>
           </div>
         </div>
       </div>
@@ -695,186 +558,190 @@
   </div>
   <!-- MODALES -->
   <!-- Modal Card 1 -->
-  <div class="modal fade modalBug" id="ModalCard1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">FisiApp - Mobile Application</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe allowfullscreen="true" src="https://www.youtube.com/embed/3rgS-ENBVMg">
+            <div class="row projects-content-modal">
+              <div class="col-md-6 video-player">
+                <div class="ratio ratio-16x9">
+                  <iframe allowfullscreen src="https://www.youtube.com/embed/3rgS-ENBVMg">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto1" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto1" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto1" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto1" data-slide-to="2"></li>
-                    <li data-target="#carouselProyecto1" data-slide-to="3"></li>
-                    <li data-target="#carouselProyecto1" data-slide-to="4"></li>
-                    <li data-target="#carouselProyecto1" data-slide-to="5"></li>
-                    <li data-target="#carouselProyecto1" data-slide-to="6"></li>
-                  </ol>
+              <div class="col-md-6">
+                <div id="carouselProyecto1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="0"
+                      class="active"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#carouselProyecto1" data-bs-slide-to="6"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/moviles/moviles1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles4.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles5.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles6.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/moviles/moviles7.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto1" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto1" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto1" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto1" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">My group and I went out here to Bogotá looking for
-                  problems we could solve. We noticed many people with muscle injuries who couldn't find a proper way to
+                <p class="justificationProjects projects-content-modal">My group and I went out here to Bogotá looking
+                  for
+                  problems we could solve. We noticed many people with muscle injuries who couldn't find a proper way
+                  to
                   treat them. Most of them took many medical appointments, but the recommended exercises were not easy
                   to remember after their visit. To deal with this, we built an application where anyone can see what
                   kind of workouts can help them depending on their injury. We also added videos showing the steps
-                  required to complete each task. The application also tracks the completed exercises using the phone's
-                  sensors to measure the user's movement. Finally, we added a map with all the medical centers near the
+                  required to complete each task. The application also tracks the completed exercises using the
+                  phone's
+                  sensors to measure the user's movement. Finally, we added a map with all the medical centers near
+                  the
                   user. The application can open a WhatsApp chat with those hospitals if needed. A notification also
                   pops in their phone to guide them to the medical center.
                 </p>
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/react.png" height="70em" alt="react">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/java.png" height="70em" alt="java">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/firebase.png" height="70em" alt="firebase">
               </div>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <a href="https://gitlab.com/ISIS3510_201910_Team9/android" class="icons" target="_blank">
+          <a href="https://gitlab.com/ISIS3510_201910_Team9/android" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/gitlab.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Card 2 -->
-  <div class="modal fade modalBug" id="ModalCard2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">Semantic Web Application</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe allowfullscreen="true" src="https://www.youtube.com/embed/XstT0uxIc7w">
+            <div class="row projects-content-modal">
+              <div class="col-lg-6 video-player">
+                <div class="ratio ratio-16x9">
+                  <iframe allowfullscreen src="https://www.youtube.com/embed/XstT0uxIc7w">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto2" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto2" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto2" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="2"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="3"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="4"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="5"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="6"></li>
-                    <li data-target="#carouselProyecto2" data-slide-to="7"></li>
-                  </ol>
+              <div class="col-lg-6">
+                <div id="carouselProyecto2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#carouselProyecto2" data-bs-slide-to="7"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
-                      <img src="pictures/proyectos/semantica/semantica1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/semantica/semantica2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica4.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica5.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica6.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica7.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica8.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/semantica/semantica9.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto2" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto2" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto2" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto2" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">The objective of this project was to facilitate the
+                <p class="justificationProjects projects-content-modal">The objective of this project was to facilitate
+                  the
                   search of papers and authors located in worldwide databases. We got the information of thousands of
                   documents and added them into an ontology. We deployed our ontology in a graphDB server, which is
                   accessed by our website. The site has many functionalities, such as filtering by instances, classes,
@@ -884,390 +751,404 @@
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/protege.jpg" height="70em" alt="protege">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/graphdb.jpg" height="70em" alt="graphdb">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/rdf4j.png" height="60em" alt="rdf4j">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/react.png" height="70em" alt="react">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/d3.png" height="60em" alt="d3">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/express.png" id="expressProject" height="45em" alt="express">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/java.png" height="70em" alt="java">
               </div>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <a href="https://github.com/daramirezv/semanticWeb" class="icons" target="_blank">
+          <a href="https://github.com/daramirezv/semanticWeb" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/github-logo.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Card 3 -->
-  <div class="modal fade modalBug" id="ModalCard3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">Mixed Reality Application</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe allowfullscreen="true" src="https://www.youtube.com/embed/D8HDixBgjNo">
+            <div class="row projects-content-modal">
+              <div class="col-md-6 video-player">
+                <div class="ratio ratio-16x9">
+                  <iframe allowfullscreen src="https://www.youtube.com/embed/D8HDixBgjNo">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto3" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto3" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto3" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto3" data-slide-to="2"></li>
-                  </ol>
+              <div class="col-md-6">
+                <div id="carouselProyecto3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProyecto3" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button type="button" data-bs-target="#carouselProyecto3" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselProyecto3" data-bs-slide-to="2"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/realidad/realidad1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/realidad/realidad2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/realidad/realidad3.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto3" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto3" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto3" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto3" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">Virtual Reality has been an exciting topic since long
-                  ago. I built an application that could improve students' learning of all ages. Inside a virtual world,
-                  they saw a classroom with a teacher in front of them. In the classroom, a robot recited a short story,
+                <p class="justificationProjects projects-content-modal">Virtual Reality has been an exciting topic since
+                  long
+                  ago. I built an application that could improve students' learning of all ages. Inside a virtual
+                  world,
+                  they saw a classroom with a teacher in front of them. In the classroom, a robot recited a short
+                  story,
                   followed by a couple of questions. Later on, they did the same exercise but now with a YouTube video
-                  instead of the virtual classroom. The point of the experiment was to prove that students focus more on
+                  instead of the virtual classroom. The point of the experiment was to prove that students focus more
+                  on
                   virtual environments.
                 </p>
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/unity.png" height="70em" alt="unity">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/csharp.png" height="70em" alt="csharp">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/vive.png" height="60em" alt="vive">
               </div>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <a href="https://github.com/daramirezv/realidadEnsenanza" class="icons" target="_blank">
+          <a href="https://github.com/daramirezv/realidadEnsenanza" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/github-logo.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Card 4 -->
-  <div class="modal fade modalBug" id="ModalCard4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">Carpooling - Web Application</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe allowfullscreen="true" src="https://www.youtube.com/embed/ztCq1YluCeI">
+            <div class="row projects-content-modal">
+              <div class="col-lg-6 video-player">
+                <div class="ratio ratio-16x9">
+                  <iframe allowfullscreen src="https://www.youtube.com/embed/ztCq1YluCeI">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto4" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto4" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto4" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto4" data-slide-to="2"></li>
-                    <li data-target="#carouselProyecto4" data-slide-to="3"></li>
-                    <li data-target="#carouselProyecto4" data-slide-to="4"></li>
-                  </ol>
+              <div class="col-lg-6">
+                <div id="carouselProyecto4" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button data-bs-target="#carouselProyecto4" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button data-bs-target="#carouselProyecto4" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carouselProyecto4" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#carouselProyecto4" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#carouselProyecto4" data-bs-slide-to="4"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/carpooling/carpooling1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/carpooling/carpooling2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/carpooling/carpooling3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/carpooling/carpooling4.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/carpooling/carpooling5.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto4" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto4" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto4" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto4" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">One problem many people suffer nowadays is
+                <p class="justificationProjects projects-content-modal">One problem many people suffer nowadays is
                   transportation, whether it is to work or university. A possible solution to this problem is
                   carpooling. We created an application that allows people from the same company to communicate and
-                  manage trips between them. The page connects everyone in need of partners into one place. The website
+                  manage trips between them. The page connects everyone in need of partners into one place. The
+                  website
                   was done with Meteor, React, and Firebase.
                 </p>
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/react.png" height="70em" alt="react">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/meteor.png" height="50em" alt="meteor">
               </div>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <a href="https://github.com/daramirezv/project3" class="icons" target="_blank">
+          <a href="https://github.com/daramirezv/project3" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/github-logo.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Card 5 -->
-  <div class="modal fade modalBug" id="ModalCard5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">AdE - Web Application</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
+            <div class="row projects-content-modal">
+              <div class="col-lg-6 video-player">
+                <div class="ratio ratio-16x9">
                   <iframe allowfullscreen="true" src="https://www.youtube.com/embed/GLZxW3fnYXE">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto5" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto5" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto5" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto5" data-slide-to="2"></li>
-                    <li data-target="#carouselProyecto5" data-slide-to="3"></li>
-                    <li data-target="#carouselProyecto5" data-slide-to="4"></li>
-                    <li data-target="#carouselProyecto5" data-slide-to="5"></li>
-                  </ol>
+              <div class="col-lg-6">
+                <div id="carouselProyecto5" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="4"></button>
+                    <button data-bs-target="#carouselProyecto5" data-bs-slide-to="5"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/arte/arte1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/arte/arte2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/arte/arte3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/arte/arte4.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/arte/arte5.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/arte/arte6.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto5" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto5" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto5" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto5" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">I met with many artists in my university who had the
+                <p class="justificationProjects projects-content-modal">I met with many artists in my university who had
+                  the
                   common problem of finding others to work together. It's is a big problem because sometimes they need
-                  someone from a different area or degree. I did a website using Meteor and React where artists can post
+                  someone from a different area or degree. I did a website using Meteor and React where artists can
+                  post
                   different artwork positions or apply to other's offers. The page uses Linkedin's API to create the
                   user's profile with all the information gathered from their database.
                 </p>
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/react.png" height="70em" alt="react">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/meteor.png" height="50em" alt="meteor">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/linkedin.png" height="70em" alt="linkedin">
               </div>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <a href="https://github.com/jd-vega11/finalproject" class="icons" target="_blank">
+          <a href="https://github.com/jd-vega11/finalproject" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/github-logo.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal Card 6 -->
-  <div class="modal fade modalBug" id="ModalCard6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade " id="ModalCard6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="exampleModalLabel">SAVD3</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
           <div class="container">
-            <div class="row spacingProjects">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe allowfullscreen="true" src="https://www.youtube.com/embed/XJRZGN9qzHo">
+            <div class="row projects-content-modal">
+              <div class="col-lg-6 video-player">
+                <div class="ratio ratio-16x9">
+                  <iframe allowfullscreen src="https://www.youtube.com/embed/XJRZGN9qzHo">
                     Your browser does not support the video tag.
                   </iframe>
                 </div>
               </div>
-              <div class="col">
-                <div id="carouselProyecto6" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselProyecto6" data-slide-to="0" class="active">
-                    </li>
-                    <li data-target="#carouselProyecto6" data-slide-to="1"></li>
-                    <li data-target="#carouselProyecto6" data-slide-to="2"></li>
-                    <li data-target="#carouselProyecto6" data-slide-to="3"></li>
-                    <li data-target="#carouselProyecto6" data-slide-to="4"></li>
-                    <li data-target="#carouselProyecto6" data-slide-to="5"></li>
-                  </ol>
+              <div class="col-lg-6">
+                <div id="carouselProyecto6" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="0" class="active">
+                    </button>
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="4"></button>
+                    <button data-bs-target="#carouselProyecto6" data-bs-slide-to="5"></button>
+                  </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
+                    <div class="carousel-item active">
                       <img src="pictures/proyectos/savd3/savd31.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/savd3/savd32.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/savd3/savd33.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/savd3/savd34.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/savd3/savd35.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-interval="5000">
+                    <div class="carousel-item">
                       <img src="pictures/proyectos/savd3/savd36.png" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselProyecto6" role="button" data-slide="prev">
+                  <button class="carousel-control-prev" data-bs-target="#carouselProyecto6" type="button"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselProyecto6" role="button" data-slide="next">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" data-bs-target="#carouselProyecto6" type="button"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <p class="justificationProjects spacingProjects">Multiple sequence alignment (MSA) is a classical
-                  bioinformatics problem that compares genes or proteins to infer evolutionary history between species.
+                <p class="justificationProjects projects-content-modal">Multiple sequence alignment (MSA) is a classical
+                  bioinformatics problem that compares genes or proteins to infer evolutionary history between
+                  species.
                   My graduation project was a web application that renders various types of MSA graphs to help
-                  biologists understand the sequences they are comparing. Despite being a highly developed field, there
+                  biologists understand the sequences they are comparing. Despite being a highly developed field,
+                  there
                   are few modern visualization solutions, so this project was an opportunity for me to learn how
-                  genetics has evolved and transformed in recent decades. I built the website using react and D3 as the
+                  genetics has evolved and transformed in recent decades. I built the website using react and D3 as
+                  the
                   visualization engine.
                 </p>
               </div>
             </div>
             <div class="row">
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/react.png" height="70em" alt="react">
               </div>
-              <div class="col projectIcons">
+              <div class="col project-icons">
                 <img src="pictures/skills/d3.png" height="50em" alt="D3">
               </div>
             </div>
@@ -1278,28 +1159,27 @@
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/document.png"
                 width="34" /></button>
           </a>
-          <a href="https://genealignment.web.app/" class="icons" target="_blank">
+          <a href="https://genealignment.web.app/" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/globe.png"
                 width="34" /></button>
           </a>
-          <a href="https://github.com/daramirezv/visualizacionGenes" class="icons" target="_blank">
+          <a href="https://github.com/daramirezv/visualizacionGenes" target="_blank">
             <button type="button" class="btn btn-dark btn-md"><img src="pictures/iconos/github-logo.png"
                 width="34" /></button>
           </a>
-          <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark btn-lg" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- modal relevant coursework -->
-  <div class="modal fade" id="modalRelevant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+  <div class="modal fade" id="modalRelevant" tabindex="-1" role="dialog" aria-hidden="true"
+    aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Relevant Coursework</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
@@ -1333,7 +1213,7 @@
           </table>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -1345,8 +1225,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Tasks</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
@@ -1372,7 +1251,7 @@
           </table>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -1383,8 +1262,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Tasks</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
           </button>
         </div>
         <div class="modal-body">
@@ -1406,335 +1284,55 @@
           </table>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <div class="modal fade" id="modalTasksTwilio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Tasks</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <table class="table table-striped">
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>React Front ends</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Java Back APIs</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Service Deployments</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- modales imagenes -->
-  <!-- arte -->
-  <!-- modal 1 -->
-  <div class="modalBug modal fade" id="arte1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
       <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art1.jpg" class="img-fluid" alt="...">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Tasks</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 2 -->
-  <div class="modalBug modal fade" id="arte2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
         <div class="modal-body">
-          <img src="pictures/intereses/art/art2.jpg" class="img-fluid" alt="...">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>React Front ends</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Java Back APIs</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Service Deployments</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 3 -->
-  <div class="modalBug modal fade" id="arte3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art3.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 4 -->
-  <div class="modalBug modal fade" id="arte4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art4.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 5 -->
-  <div class="modalBug modal fade" id="arte5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art5.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 6 -->
-  <div class="modalBug modal fade" id="arte6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art6.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 7 -->
-  <div class="modalBug modal fade" id="arte7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/art/art7.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- comida -->
-  <!-- modal 1 -->
-  <div class="modalBug modal fade" id="comida1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/comida/comida1.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 2 -->
-  <div class="modalBug modal fade" id="comida2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/comida/comida2.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 3 -->
-  <div class="modalBug modal fade" id="comida3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/comida/comida3.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 4 -->
-  <div class="modalBug modal fade" id="comida4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/comida/comida4.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 5 -->
-  <div class="modalBug modal fade" id="comida5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/comida/comida5.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- juegos -->
-  <!-- modal 1 -->
-  <div class="modalBug modal fade" id="juego1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego1.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 2 -->
-  <div class="modalBug modal fade" id="juego2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego2.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 3 -->
-  <div class="modalBug modal fade" id="juego3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego3.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 4 -->
-  <div class="modalBug modal fade" id="juego4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego4.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 5 -->
-  <div class="modalBug modal fade" id="juego5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego5.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 6 -->
-  <div class="modalBug modal fade" id="juego6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego6.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 7 -->
-  <div class="modalBug modal fade" id="juego7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego7.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 8 -->
-  <div class="modalBug modal fade" id="juego8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/games/juego8.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- viajes -->
-  <!-- modal 1 -->
-  <div class="modalBug modal fade" id="viaje1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/viaje/viaje1.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 2 -->
-  <div class="modalBug modal fade" id="viaje2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/viaje/viaje2.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 3 -->
-  <div class="modalBug modal fade" id="viaje3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/viaje/viaje3.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 4 -->
-  <div class="modalBug modal fade" id="viaje4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/viaje/viaje4.jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- modal 5 -->
-  <div class="modalBug modal fade" id="viaje5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img src="pictures/intereses/viaje/viaje5.jpg" class="img-fluid" alt="...">
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script type="text/javascript" src="index.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="index.js"></script>
 </body>
