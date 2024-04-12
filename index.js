@@ -64,26 +64,38 @@ const closeNavBar = () => {
 document.getElementById("main").onclick = closeNavBar;
 document.getElementById("main").addEventListener('touchstart', closeNavBar);
 
-$('#ModalCard1').on('hidden.bs.modal', function (e) {
-  $('#ModalCard1 iframe').attr("src", "https://www.youtube.com/embed/3rgS-ENBVMg");
+const modalCard1 = document.getElementById('modalCard1')
+modalCard1.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard1.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/3rgS-ENBVMg";
 });
 
-$('#ModalCard2').on('hidden.bs.modal', function (e) {
-  $('#ModalCard2 iframe').attr("src", "https://www.youtube.com/embed/XstT0uxIc7w");
+const modalCard2 = document.getElementById('modalCard2')
+modalCard2.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard2.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/XstT0uxIc7w";
 });
 
-$('#ModalCard3').on('hidden.bs.modal', function (e) {
-  $('#ModalCard3 iframe').attr("src", "https://www.youtube.com/embed/D8HDixBgjNo");
+const modalCard3 = document.getElementById('modalCard3')
+modalCard3.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard3.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/D8HDixBgjNo";
 });
 
-$('#ModalCard4').on('hidden.bs.modal', function (e) {
-  $('#ModalCard4 iframe').attr("src", "https://www.youtube.com/embed/ztCq1YluCeI");
+const modalCard4 = document.getElementById('modalCard4')
+modalCard4.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard4.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/ztCq1YluCeI";
 });
 
-$('#ModalCard5').on('hidden.bs.modal', function (e) {
-  $('#ModalCard5 iframe').attr("src", "https://www.youtube.com/embed/GLZxW3fnYXE");
+const modalCard5 = document.getElementById('modalCard5')
+modalCard5.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard5.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/GLZxW3fnYXE";
 });
 
-$('#ModalCard6').on('hidden.bs.modal', function (e) {
-  $('#ModalCard6 iframe').attr("src", "https://www.youtube.com/embed/XJRZGN9qzHo");
+const modalCard6 = document.getElementById('modalCard6')
+modalCard6.addEventListener('hidden.bs.modal', () => {
+  var iframe = modalCard6.querySelector('iframe');
+  iframe.src = "https://www.youtube.com/embed/XJRZGN9qzHo";
 });
