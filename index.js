@@ -52,6 +52,15 @@ document.getElementById("othernavbar").onclick = function () {
   document.getElementById("other").style.display = "block";
 }
 
+document.getElementById("main").onclick = function () {
+  const toggleButton = document.getElementById("navbar-toggler");
+  const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+  const isHidden = window.getComputedStyle(toggleButton).display === 'none';
+  if (isExpanded && !isHidden) {
+    toggleButton.click();
+  }
+}
+
 $('#ModalCard1').on('hidden.bs.modal', function (e) {
   $('#ModalCard1 iframe').attr("src", "https://www.youtube.com/embed/3rgS-ENBVMg");
 });
