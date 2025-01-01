@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,7 +94,26 @@
         <div class="col-md-6 text-center">
           <p class="title-education">Education</p>
           <!-- Card 1 -->
-          <div class="card">
+          <div class="card mb-3">
+            <h5 class="card-header text-center">Georgia Institute of Technology</h5>
+            <div class="row">
+              <div class="col-md-5 container-images">
+                <a href="https://en.wikipedia.org/wiki/Georgia_Tech" class="container-images-link" target="_blank">
+                  <img class="careerImages" src="pictures/logogatech.png" alt="Georgia Tech">
+                </a>
+              </div>
+              <div class="col-md-7 card-body">
+                <p class="card-text">Master of Science in Computer Science</p>
+                <p class="card-text">January 2025 - Present</p>
+                <p class="card-text">Online</p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#modalRelevantGatech">Relevant
+                  Coursework</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card mb-3">
             <h5 class="card-header text-center">Universidad de los Andes</h5>
             <div class="row">
               <div class="col-md-5 container-images">
@@ -108,7 +128,7 @@
                 <p class="card-text">July 2015 - July 2020</p>
                 <p class="card-text">Bogotá, Colombia</p>
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal"
-                  data-bs-target="#modalRelevant">Relevant
+                  data-bs-target="#modalRelevantAndes">Relevant
                   Coursework</button>
               </div>
             </div>
@@ -127,9 +147,8 @@
                 </a>
               </div>
               <div class="col-md-7 card-body">
-                <p class="card-text">Product Development</p>
                 <p class="card-text">Software Engineer</p>
-                <p class="card-text">October 2021 - Present</p>
+                <p class="card-text">December 2022 - Present</p>
                 <p class="card-text">Bogotá, Colombia</p>
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal"
                   data-bs-target="#modalTasksAchievers">Tasks</button>
@@ -146,7 +165,6 @@
                 </a>
               </div>
               <div class="col-md-7 card-body">
-                <p class="card-text">Product Development</p>
                 <p class="card-text">Software Engineer</p>
                 <p class="card-text">October 2021 - March 2022</p>
                 <p class="card-text">Bogotá, Colombia</p>
@@ -165,7 +183,6 @@
                 </a>
               </div>
               <div class="col-md-7 card-body">
-                <p class="card-text">Product Development</p>
                 <p class="card-text">Software Engineer</p>
                 <p class="card-text">August 2020 - October 2021</p>
                 <p class="card-text">Bogotá, Colombia</p>
@@ -184,8 +201,7 @@
                 </a>
               </div>
               <div class="col-md-7 card-body">
-                <p class="card-text">Global Business Services</p>
-                <p class="card-text">Internship</p>
+                <p class="card-text">Application Developer Internship</p>
                 <p class="card-text">July 2019 - January 2020</p>
                 <p class="card-text">Bogotá, Colombia</p>
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal"
@@ -1186,7 +1202,38 @@
     </div>
   </div>
   <!-- modal relevant coursework -->
-  <div class="modal fade" id="modalRelevant" tabindex="-1" role="dialog" aria-hidden="true"
+  <!-- gatech -->
+  <div class="modal fade" id="modalRelevantGatech" tabindex="-1" role="dialog" aria-hidden="true"
+    aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Relevant Coursework</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Artificial Intelligence</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Machine Learning</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- andes -->
+  <div class="modal fade" id="modalRelevantAndes" tabindex="-1" role="dialog" aria-hidden="true"
     aria-labelledby="exampleModalLabel">
     <div class="modal-dialog modal-dialog-centered modal-sm">
       <div class="modal-content">
